@@ -617,7 +617,7 @@
 #define fuel_pressure_sensor_mode_e_FPM_Absolute 0
 #define fuel_pressure_sensor_mode_e_FPM_Differential 2
 #define fuel_pressure_sensor_mode_e_FPM_Gauge 1
-#define FUEL_RPM_COUNT 16
+#define FUEL_RPM_COUNT 24
 #define FUEL_TRIM_SIZE 4
 #define GAP_TRACKING_LENGTH 18
 #define GAUGE_CATEGORY_BOOST_CONTROL "Boost Control"
@@ -1268,7 +1268,7 @@
 #define IGN_BLEND_COUNT 4
 #define ign_cyl_trim_s_size 16
 #define IGN_LOAD_COUNT 16
-#define IGN_RPM_COUNT 16
+#define IGN_RPM_COUNT 24
 #define IGN_TRIM_1_NAME "Ignition trim cyl 1"
 #define IGN_TRIM_2_NAME "Ignition trim cyl 2"
 #define IGN_TRIM_SIZE 4
@@ -1292,7 +1292,7 @@
 #define INDICATOR_NAME_CLUTCH_DOWN "Clutch: down"
 #define INDICATOR_NAME_CLUTCH_UP "Clutch: up"
 #define INJ_PHASE_LOAD_COUNT 16
-#define INJ_PHASE_RPM_COUNT 16
+#define INJ_PHASE_RPM_COUNT 24
 #define INJ_STAGING_COUNT 6
 #define injection_mode_e_auto_enum 0="IM_SIMULTANEOUS",2="IM_BATCH",1="IM_SEQUENTIAL",3="IM_SINGLE_POINT"
 #define injection_mode_e_IM_BATCH 2
@@ -1359,7 +1359,7 @@
 #define lua_gauge_meaning_e_LUA_GAUGE_LOWER_BOUND 0
 #define lua_gauge_meaning_e_LUA_GAUGE_UPPER_BOUND 1
 #define LUA_PWM_COUNT 8
-#define LUA_SCRIPT_SIZE 8000
+#define LUA_SCRIPT_SIZE 13500
 #define MAF_DECODING_COUNT 32
 #define MAIN_HELP_URL "https://github.com/rusefi/rusefi/wiki/mega144"
 #define MAP_ANGLE_SIZE 8
@@ -1429,13 +1429,13 @@
 #define PACK_MULT_VSS 100
 #define PACK_PERCENT_BYTE_MULT 100.0
 #define PAGE_SIZE_1 256
-#define PAGE_SIZE_2 2048
+#define PAGE_SIZE_2 3072
 #define PEDAL_TO_TPS_RPM_SIZE 8
 #define PEDAL_TO_TPS_SIZE 8
 #define pedalSensor_NAME "Accelerator pedal"
 #define pedalToTpsTbl_NAME "ETB pedal target"
 #define PERCENT_TRIM_BYTE_PACKING_DIV 0.02
-#define persistent_config_s_size 23804
+#define persistent_config_s_size 30264
 #define pid_s_size 20
 #define pin_input_mode_e_auto_enum 0="PI_DEFAULT",4="PI_INVERTED_DEFAULT",6="PI_INVERTED_PULLDOWN",5="PI_INVERTED_PULLUP",2="PI_PULLDOWN",1="PI_PULLUP"
 #define pin_input_mode_e_PI_DEFAULT 0
@@ -1513,7 +1513,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges true
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 1264520215
+#define SIGNATURE_HASH 962665762
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1591,7 +1591,7 @@
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_BUTTON 0
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_DOWN_SWITCH 2
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_UP_SWITCH 3
-#define TOTAL_CONFIG_SIZE 23804
+#define TOTAL_CONFIG_SIZE 30264
 #define TPS_2_BYTE_PACKING_MULT 100
 #define TPS_PPS_TOO_HIGH_THRESHOLD 110
 #define TPS_PPS_TOO_LOW_THRESHOLD -10
@@ -2068,7 +2068,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.09.17.mega144-h7.1264520215"
+#define TS_SIGNATURE "rusEFI main.2025.09.17.mega144-h7.962665762"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
@@ -2125,7 +2125,7 @@
 #define ve_override_e_VE_MAP 1
 #define ve_override_e_VE_None 0
 #define ve_override_e_VE_TPS 2
-#define VE_RPM_COUNT 16
+#define VE_RPM_COUNT 24
 #define VE_TABLE_NAME "VE Table"
 #define VEHICLE_INFO_SIZE 32
 #define VIN_NUMBER_SIZE 17
