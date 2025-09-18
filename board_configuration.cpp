@@ -19,6 +19,13 @@ static void customBoardDefaultConfiguration() {
 	engineConfiguration->adcVcc = 3.3f;
 	engineConfiguration->is_enabled_spi_3 = true;
 
+	engineConfiguration->map.sensor.hwChannel = EFI_ADC_4;
+	engineConfiguration->clt.adcChannel = EFI_ADC_6;
+	engineConfiguration->iat.adcChannel = EFI_ADC_7;
+	engineConfiguration->afr.hwChannel = EFI_ADC_14;
+
+	
+
 }
 
 void setup_custom_board_overrides() {
