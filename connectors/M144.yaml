@@ -1,55 +1,55 @@
 pins:
-  - class: outputs
+  - pin: 0
     id: D4
-    pin: 0
+    class: outputs  
     ts_name: IGN1
     type: high_logic
 
-  - class: outputs
+  - pin: 1
     id: D3
-    pin: 1
+    class: outputs 
     ts_name: IGN2
     type: high_logic
 
-  - class: outputs
+  - pin: 2
     id: C9
-    pin: 2
+    class: outputs
     ts_name: IGN3
     type: high_logic
 
-  - class: outputs
+  - pin: 4
     id: C8
-    pin: 4
+    class: outputs
     ts_name: IGN4
     type: high_logic
 
-  - class: outputs
+  - pin: 5
     id: C7
-    pin: 5
+    class: outputs   
     ts_name: IGN5
     type: high_logic
 
-  - class: outputs
+  - pin: 6
     id: G8 
-    pin: 6
+    class: outputs   
     ts_name: IGN6
     type: high_logic
 
-  - class: outputs
+  - pin: 7
     id: D7
-    pin: 7
+    class: outputs    
     ts_name: INJ1
     type: ls
 
-  - class: outputs
+  - pin: 8
     id: G9
-    pin: 8
+    class: outputs
     ts_name: INJ2
     type: ls
 
-  - class: outputs
+  - pin: 9
     id: G10
-    pin: 9
+    class: outputs
     ts_name: INJ3
     type: ls
 
@@ -95,7 +95,7 @@ pins:
     ts_name: VR1
     type: din
 
- - class: outputs
+  - class: outputs
     id: E7
     pin: 16
     ts_name: VR2
