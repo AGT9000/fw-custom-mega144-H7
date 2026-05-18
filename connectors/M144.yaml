@@ -93,13 +93,13 @@ pins:
     id: E8
     pin: 15
     ts_name: VR1
-    type: vr
+    type: din
 
  - class: outputs
     id: E7
     pin: 16
     ts_name: VR2
-    type: vr
+    type: din
     
   - class: analog_inputs
     id: [C4, EFIADC14]
