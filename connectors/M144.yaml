@@ -92,13 +92,19 @@ pins:
   - class: event_inputs
     id: E8
     pin: 15
-    ts_name: VR1
+    ts_name: HALL1-VR1
     type: din
 
   - class: event_inputs
     id: E7
     pin: 16
-    ts_name: VR2
+    ts_name: HALL2-VR2
+    type: din
+  
+  - class: event_inputs
+    id: E9
+    pin: 17
+    ts_name: HALL3-VR3
     type: din
     
   - class: analog_inputs
@@ -122,7 +128,7 @@ pins:
   - class: analog_inputs
     id: EFI_ADC_9
     pin: 57
-    ts_name: A_temp4
+    ts_name: A_Temp4
     type: av
 
   - class: analog_inputs
@@ -140,7 +146,7 @@ pins:
   - class: analog_inputs
     id: EFI_ADC_12
     pin: 60
-    ts_name: A_temp2
+    ts_name: A_Temp2
     type: av
 
   - class: analog_inputs
