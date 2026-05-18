@@ -1,5 +1,3 @@
-meta: ../../../M144_meta.h
-
 pins:
   - class: outputs
     id: D4
