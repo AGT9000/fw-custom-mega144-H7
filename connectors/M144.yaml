@@ -102,96 +102,96 @@ pins:
     type: din
     
   - class: analog_inputs
-    id: [C4, EFI_ADC_14]
+    id: EFI_ADC_14
     pin: 54
     ts_name: A_Temp1
     type: av
 
   - class: analog_inputs
-    id: [C5, EFI_ADC_15]
+    id: EFI_ADC_15
     pin: 55
     ts_name: AV3
     type: av
 
   - class: analog_inputs
-    id: [B0, EFI_ADC_8]
+    id: EFI_ADC_8
     pin: 56
     ts_name: A_Temp3
     type: av
 
   - class: analog_inputs
-    id: [B1, EFI_ADC_9]
+    id: EFI_ADC_9
     pin: 57
     ts_name: A_temp4
     type: av
 
   - class: analog_inputs
-    id: [C0, EFI_ADC_10]
+    id: EFI_ADC_10
     pin: 58
     ts_name: AV1
     type: av
 
   - class: analog_inputs
-    id: [C1, EFI_ADC_11]
+    id: EFI_ADC_11
     pin: 59
     ts_name: AV2
     type: av
 
   - class: analog_inputs
-    id: [C2, EFI_ADC_12]
+    id: EFI_ADC_12
     pin: 60
     ts_name: A_temp2
     type: av
 
   - class: analog_inputs
-    id: [C3, EFI_ADC_13]
+    id: EFI_ADC_13
     pin: 61
     ts_name: AV4
     type: av
 
   - class: analog_inputs
-    id: [A0, EFI_ADC_0]
+    id: EFI_ADC_0
     pin: 62
     ts_name: AV5
     type: av
 
   - class: analog_inputs
-    id: [A1, EFI_ADC_1]
+    id: EFI_ADC_1
     pin: 63
     ts_name: AV6
     type: av
 
   - class: analog_inputs
-    id: [A2, EFI_ADC_2]
+    id: EFI_ADC_2
     pin: 64
     ts_name: AV7
     type: av
 
   - class: analog_inputs
-    id: [A3, EFI_ADC_3]
+    id: EFI_ADC_3
     pin: 65
     ts_name: AV8
     type: av
 
   - class: analog_inputs
-    id: [A4, EFI_ADC_4]
+    id: EFI_ADC_4
     pin: 66
     ts_name: AV9
     type: av
 
   - class: analog_inputs
-    id: [A5, EFI_ADC_5]
+    id: EFI_ADC_5
     pin: 67
     ts_name: AV10
     type: av
 
   - class: analog_inputs
-    id: [A6, EFI_ADC_6]
+    id: EFI_ADC_6
     pin: 68
     ts_name: AV11
     type: av
   - class: analog_inputs
-    id: [A7, EFI_ADC_7]
+    id: EFI_ADC_7
     pin: 69
     ts_name: AV12
     type: av
