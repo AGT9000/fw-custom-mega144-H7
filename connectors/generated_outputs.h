@@ -16,11 +16,6 @@ Gpio GENERATED_OUTPUTS[] = {
 	Gpio::C8, // IGN4
 	Gpio::C7, // IGN5
 	Gpio::G8, // IGN6
-	Gpio::E11, // ISO Digital IN3
-	Gpio::E12, // ISO Digital IN1
-	Gpio::D14, // ISO Digital IN2
-	Gpio::E8, // VR1
-	Gpio::E7, // VR2
 // "INJ1",
 // "INJ2",
 // "INJ3",
@@ -33,9 +28,4 @@ Gpio GENERATED_OUTPUTS[] = {
 // "IGN4",
 // "IGN5",
 // "IGN6",
-// "ISO Digital IN3",
-// "ISO Digital IN1",
-// "ISO Digital IN2",
-// "VR1",
-// "VR2",
 }
