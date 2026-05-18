@@ -85,7 +85,7 @@ pins:
 
   - class: outputs
     id: D14
-    pin: 15
+    pin: 17
     ts_name: ISO Digital IN2
     type: din
 
