@@ -6,6 +6,16 @@
 // see comments at declaration in pin_repository.h
 const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch (brainPin) {
+		case Gpio::B4:
+			return "Fan CTRL";
+		case Gpio::B5:
+			return "TACH Out";
+		case Gpio::B6:
+			return "Spare 1 Out";
+		case Gpio::B7:
+			return "Idle 1 CTRL";
+		case Gpio::B8:
+			return "Spare 2 Out";
 		case Gpio::C7:
 			return "IGN5";
 		case Gpio::C8:
@@ -38,6 +48,8 @@ const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 			return "INJ5";
 		case Gpio::G13:
 			return "INJ6";
+		case Gpio::G14:
+			return "Fuel Pump CTRL";
 		case Gpio::G8:
 			return "IGN6";
 		case Gpio::G9:

@@ -10,6 +10,12 @@ Gpio GENERATED_OUTPUTS[] = {
 	Gpio::G11, // INJ4
 	Gpio::G12, // INJ5
 	Gpio::G13, // INJ6
+	Gpio::G14, // Fuel Pump CTRL
+	Gpio::B4, // Fan CTRL
+	Gpio::B5, // TACH Out
+	Gpio::B6, // Spare 1 Out
+	Gpio::B7, // Idle 1 CTRL
+	Gpio::B8, // Spare 2 Out
 	Gpio::D4, // IGN1
 	Gpio::D3, // IGN2
 	Gpio::C9, // IGN3
@@ -22,6 +28,12 @@ Gpio GENERATED_OUTPUTS[] = {
 // "INJ4",
 // "INJ5",
 // "INJ6",
+// "Fuel Pump CTRL",
+// "Fan CTRL",
+// "TACH Out",
+// "Spare 1 Out",
+// "Idle 1 CTRL",
+// "Spare 2 Out",
 // "IGN1",
 // "IGN2",
 // "IGN3",
