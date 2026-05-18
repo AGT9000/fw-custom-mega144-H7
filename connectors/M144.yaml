@@ -97,7 +97,7 @@ pins:
 
  - class: outputs
     id: E7
-    pin: 15
+    pin: 16
     ts_name: VR2
     type: vr
     
