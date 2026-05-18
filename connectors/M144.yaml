@@ -71,31 +71,31 @@ pins:
     ts_name: INJ6
     type: ls
 
-  - class: outputs
+  - class: switch_inputs
     id: E11
     pin: 13
     ts_name: ISO Digital IN3
     type: din
 
-  - class: outputs
+  - class: switch_inputs
     id: E12
     pin: 14
     ts_name: ISO Digital IN1
     type: din
 
-  - class: outputs
+  - class: switch_inputs
     id: D14
     pin: 17
     ts_name: ISO Digital IN2
     type: din
 
-  - class: outputs
+  - class: event_inputs
     id: E8
     pin: 15
     ts_name: VR1
     type: din
 
-  - class: outputs
+  - class: event_inputs
     id: E7
     pin: 16
     ts_name: VR2
