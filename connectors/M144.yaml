@@ -103,9 +103,45 @@ pins:
   
   - class: event_inputs
     id: E9
-    pin: 17
+    pin: 18
     ts_name: HALL3-VR3
     type: din
+
+  - class: outputs
+    id: G14
+    pin: 19
+    ts_name: Fuel Pump CTRL
+    type: ls
+    
+  - class: outputs
+    id: B4
+    pin: 20
+    ts_name: Fan CTRL
+    type: ls
+
+  - class: outputs
+    id: B5
+    pin: 21
+    ts_name: TACH Out
+    type: ls
+
+  - class: outputs
+    id: B6
+    pin: 22
+    ts_name: Spare 1 Out
+    type: ls
+
+  - class: outputs
+    id: B7
+    pin: 23
+    ts_name: Idle 1 CTRL
+    type: ls
+
+  - class: outputs
+    id: B8
+    pin: 24
+    ts_name: Spare 2 Out
+    type: ls
     
   - class: analog_inputs
     id: EFI_ADC_14
