@@ -1,0 +1,199 @@
+meta: ../../../M144_meta.h
+
+pins:
+  - class: outputs
+    id: D4
+    pin: 0
+    ts_name: IGN1
+    type: high_logic
+
+  - class: outputs
+    id: D3
+    pin: 1
+    ts_name: IGN2
+    type: high_logic
+
+  - class: outputs
+    id: C9
+    pin: 2
+    ts_name: IGN3
+    type: high_logic
+
+  - class: outputs
+    id: C8
+    pin: 4
+    ts_name: IGN4
+    type: high_logic
+
+  - class: outputs
+    id: C7
+    pin: 5
+    ts_name: IGN5
+    type: high_logic
+
+  - class: outputs
+    id: G8 
+    pin: 6
+    ts_name: IGN6
+    type: high_logic
+
+  - class: outputs
+    id: D7
+    pin: 7
+    ts_name: INJ1
+    type: ls
+
+  - class: outputs
+    id: G9
+    pin: 8
+    ts_name: INJ2
+    type: ls
+
+  - class: outputs
+    id: G10
+    pin: 9
+    ts_name: INJ3
+    type: ls
+
+  - class: outputs
+    id: G11
+    pin: 10
+    ts_name: INJ4
+    type: ls
+
+  - class: outputs
+    id: G12
+    pin: 11
+    ts_name: INJ5
+    type: ls
+
+  - class: outputs
+    id: G13
+    pin: 12
+    ts_name: INJ6
+    type: ls
+
+  - class: [event_inputs, switch_inputs]
+    id: E11
+    pin: 13
+    ts_name: ISO Digital IN3
+    type: din
+
+  - class: [event_inputs, switch_inputs]
+    id: E12
+    pin: 14
+    ts_name: ISO Digital IN1
+    type: din
+
+  - class: [event_inputs, switch_inputs]
+    id: D14
+    pin: 15
+    ts_name: ISO Digital IN2
+    type: din
+
+  - class: [event_inputs, switch_inputs]
+    id: E8
+    pin: 15
+    ts_name: VR1
+    type: vr
+
+ - class: [event_inputs, switch_inputs]
+    id: E7
+    pin: 15
+    ts_name: VR2
+    type: vr
+    
+  - class: analog_inputs
+    id: [C4, EFIADC14]
+    pin: 54
+    ts_name: A_Temp1
+    type: av
+
+  - class: analog_inputs
+    id: [C5, EFIADC15]
+    pin: 55
+    ts_name: AV3
+    type: av
+
+  - class: analog_inputs
+    id: [B0, EFIADC8]
+    pin: 56
+    ts_name: A_Temp3
+    type: av
+
+  - class: analog_inputs
+    id: [B1, EFIADC9]
+    pin: 57
+    ts_name: A_temp4
+    type: av
+
+  - class: analog_inputs
+    id: [C0, EFIADC10]
+    pin: 58
+    ts_name: AV1
+    type: av
+
+  - class: analog_inputs
+    id: [C1, EFIADC11]
+    pin: 59
+    ts_name: AV2
+    type: av
+
+  - class: analog_inputs
+    id: [C2, EFIADC12]
+    pin: 60
+    ts_name: A_temp2
+    type: av
+
+  - class: analog_inputs
+    id: [C3, EFIADC13]
+    pin: 61
+    ts_name: AV4
+    type: av
+
+  - class: analog_inputs
+    id: [A0, EFIADC0]
+    pin: 62
+    ts_name: AV5
+    type: av
+
+  - class: analog_inputs
+    id: [A1, EFIADC1]
+    pin: 63
+    ts_name: AV6
+    type: av
+
+  - class: analog_inputs
+    id: [A2, EFIADC2]
+    pin: 64
+    ts_name: AV7
+    type: av
+
+  - class: analog_inputs
+    id: [A3, EFIADC3]
+    pin: 65
+    ts_name: AV8
+    type: av
+
+  - class: analog_inputs
+    id: [A4, EFIADC4]
+    pin: 66
+    ts_name: AV9
+    type: av
+
+  - class: analog_inputs
+    id: [A5, EFIADC5]
+    pin: 67
+    ts_name: AV10
+    type: av
+
+  - class: analog_inputs
+    id: [A6, EFIADC6]
+    pin: 68
+    ts_name: AV11
+    type: av
+  - class: analog_inputs
+    id: [A7, EFIADC7]
+    pin: 69
+    ts_name: AV12
+    type: av
