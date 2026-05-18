@@ -25,9 +25,11 @@ const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::E12:
 			return "ISO Digital IN1";
 		case Gpio::E7:
-			return "VR2";
+			return "HALL2-VR2";
 		case Gpio::E8:
-			return "VR1";
+			return "HALL1-VR1";
+		case Gpio::E9:
+			return "HALL3-VR3";
 		case Gpio::G10:
 			return "INJ3";
 		case Gpio::G11:

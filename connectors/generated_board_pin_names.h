@@ -20,6 +20,7 @@
 #define PIN_17 D14
 #define PIN_15 E8
 #define PIN_16 E7
+#define PIN_17 E9
 #define PIN_54 EFI_ADC_14
 #define PIN_55 EFI_ADC_15
 #define PIN_56 EFI_ADC_8
