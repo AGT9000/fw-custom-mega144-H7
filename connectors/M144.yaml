@@ -37,42 +37,36 @@ pins:
 
   - pin: 7
     id: D7
-    Function: "Injector #1"
     class: outputs    
     ts_name: INJ1
     type: ls
 
   - pin: 8
     id: G9
-    Function: "Injector #2"
     class: outputs
     ts_name: INJ2
     type: ls
 
   - pin: 9
     id: G10
-    Fuction: "Injector #3"
     class: outputs
     ts_name: INJ3
     type: ls
 
   - class: outputs
     id: G11
-    Fuction: "Injector #4"
     pin: 10
     ts_name: INJ4
     type: ls
 
   - class: outputs
     id: G12
-    Fuction: "Injector #5"
     pin: 11
     ts_name: INJ5
     type: ls
 
   - class: outputs
     id: G13
-    Fuction: "Injector #6"
     pin: 12
     ts_name: INJ6
     type: ls
