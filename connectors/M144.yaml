@@ -1,6 +1,7 @@
 pins:
   - pin: 0
     id: D4
+    fuction: "Ignition #1"
     class: outputs  
     ts_name: IGN1
     type: high_logic
