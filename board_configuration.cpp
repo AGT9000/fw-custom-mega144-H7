@@ -25,7 +25,7 @@ static void setupVbatt() {
 
 	
 }
-stsitc void setupCAN() {
+staitc void setupCAN() {
 	
 	engineConfiguration->canTxPin = Gpio::D1;
 	engineConfiguration->canRxPin = Gpio::D0;
